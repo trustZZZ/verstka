@@ -99,19 +99,64 @@
   line-height: 59px;
 
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap:30px;
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  padding-top: 180px;
+  border-radius: 20px;
+  background-color: #f6c055;
+  display: flex;
+  flex-direction: column;
+  min-height: 605px;
+  position: relative;
 }
 
 .card-image {
-    display: block;
-    max-width: 100%;
+  display: block;
+  position: absolute;
+  width: 74%;
+  top: 9px;
+  right: 43px;
 }
+
+.card-text-blok-white {
+  border-radius: 0 0 20px 20px;
+  background-color: #edf0f9;
+  padding: 30px 30px 95px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-self: flex-end;
+}
+
+.card__header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #131313;
+}
+
+.card__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: #131313;
+}
+
 .interaction {
   padding: 60px 39px;
 }
@@ -124,39 +169,9 @@
   padding: 30px 39px 0px;
 }
 
-/* Про работадателя и учебу, скажите вы, понятно. А зачем это конкретно мне? */
-
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 59px;
-
-color: #FFFFFF; */
-
-/* карточка */
-/* Разнообразие взглядов и подходов */
-
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px; */
-
-/* black-bg */
-/* color: #131313; */
-
-/* текст карточк */
-
 /* Обучение в команде позволяет каждому участнику внести вклад в процесс обучения благодаря их уникальному опыту и знаниям. */
 
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 1.5;
-
-color: #131313; */
+/*  */
 
 /* взаимодействие */
 /* Взаимодействие в команде может быть сложным, но если правильно настроиться и работать совместно, результаты могут быть впечатляющими. Важно со старта понять и принять: ни у кого не получалось идеально с первого раза! */
