@@ -194,37 +194,99 @@
 
 .interaction {
   padding: 60px 39px;
+  background-color: #f2c94c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #131313;
+}
+
+.span-accent-green {
+  color: #589f46;
+}
+
+.span-accent-purple {
+  color: #7125bc;
 }
 
 .advices {
   padding: 60px 39px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.advices__header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.advices__list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-image: url("../images/line.png");
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advices__span-accent {
+  font-weight: 700;
 }
 
 .footer {
-  padding: 30px 39px 0px;
+  padding: 30px 39px 34px;
+  background-color: #131313;
+  display: grid;
+  grid-template-columns: 83px 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-/* Обучение в команде позволяет каждому участнику внести вклад в процесс обучения благодаря их уникальному опыту и знаниям. */
+.footer__logo-link {
+  grid-column: 1;
+  grid-row: 1;
+}
 
-/*  */
+.footer__social-items {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 120% */
+  /* text-decoration-line: underline; */
 
-/* взаимодействие */
-/* Взаимодействие в команде может быть сложным, но если правильно настроиться и работать совместно, результаты могут быть впечатляющими. Важно со старта понять и принять: ни у кого не получалось идеально с первого раза! */
+  /* text-light */
+  color: #f5f5f5;
+  grid-column: 4;
+  grid-row: 1;
+}
 
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px; */
+.footer-text {
+  grid-column: 2/4;
+  grid-row: 2;
+  /* Vёrstka ® 2023 */
 
-/* black-bg */
-/* color: #131313; */
-
-/* но если */
-/* color: #589F46; */
-
-/* важно */
-/* color: #7125BC; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  color: #333333;
+  text-align: center;
+}
 
 /* заголовок h2 */
 /* И вот несколько советов, которые помогут настроиться на эффективное взаимодействие в команде: */
