@@ -245,15 +245,15 @@
 }
 
 .footer {
-  padding: 30px 39px 34px;
+  padding-top: 30px;
   background-color: #131313;
   display: grid;
-  grid-template-columns: 83px 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 39px 83px 1fr 1fr 39px;
+  grid-template-rows: 50px 1fr;
 }
 
 .footer__logo-link {
-  grid-column: 1;
+  grid-column: 2;
   grid-row: 1;
 }
 
@@ -261,21 +261,20 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 19px;
-  /* identical to box height, or 120% */
-  /* text-decoration-line: underline; */
-
-  /* text-light */
+  
   color: #f5f5f5;
   grid-column: 4;
   grid-row: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
 }
 
 .footer-text {
-  grid-column: 2/4;
+  grid-column: 1/6;
   grid-row: 2;
-  /* Vёrstka ® 2023 */
 
   font-family: "Roboto";
   font-style: normal;
